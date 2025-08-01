@@ -18,21 +18,19 @@
 ---
 
 ## 🎓 Curriculum Structure
-- [[#Phase 0 - Prerequisites (Optional Review)]]
-- [[#Phase 1 Foundation (Months 1-12)]]
-	- [[#Month 1 Security Fundamentals & Web Security Basics]]
-		- [[#Week 1-2 Security Mindset & Threat Modeling]]
-		- [[#Week 3-4 Web Application Security Deep Dive]]
-	- [[#Month 2 Network Security & Traffic Analysis]]
-	- [[#Month 3 System Security & Privilege Escalation]]
-	- [[#Month 4 Modern Web Security & JavaScript Analysis]]
-	- Fundamental Concepts
-	- Basic Tool Proficiency
-- 
-
+[[#Phase 0 Prerequisites *(Optional Review)*]]
+[[#Phase 1 Foundation]]
+	[[#Security Mindset & Threat Modeling]]
+	[[#Web Application Security Deep Dive]]
+	[[#Network Protocols & Analysis]]
+	[[#Wireless Security & Network Attacks]]
+	[[#Linux Security Hardening & Exploitation]]
+	[[#Windows Security & Active Directory]]
+	[[#Advanced Web Attacks]]
+	[[#JavaScript Security & Client-Side Attacks]]
 
 ## Curriculum
-### Phase 0 - Prerequisites *(Optional Review)*
+### Phase 0: Prerequisites *(Optional Review)*
 *Only complete if you lack programming fundamentals*
 
 #### Core Programming Competency Check
