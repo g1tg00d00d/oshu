@@ -18,16 +18,16 @@
 ---
 
 ## 🎓 Curriculum Structure
-[[#Phase 0 Prerequisites *(Optional Review)*]]
-[[#Phase 1 Foundation]]
-	[[#Security Mindset & Threat Modeling]]
-	[[#Web Application Security Deep Dive]]
-	[[#Network Protocols & Analysis]]
-	[[#Wireless Security & Network Attacks]]
-	[[#Linux Security Hardening & Exploitation]]
-	[[#Windows Security & Active Directory]]
-	[[#Advanced Web Attacks]]
-	[[#JavaScript Security & Client-Side Attacks]]
+- [[#Phase 0 Prerequisites *(Optional Review)*]]
+- [[#Phase 1 Foundation]]
+	- [[#Security Mindset & Threat Modeling]]
+	- [[#Web Application Security Deep Dive]]
+	- [[#Network Protocols & Analysis]]
+	- [[#Wireless Security & Network Attacks]]
+	- [[#Linux Security Hardening & Exploitation]]
+	- [[#Windows Security & Active Directory]]
+	- [[#Advanced Web Attacks]]
+	- [[#JavaScript Security & Client-Side Attacks]]
 
 ## Curriculum
 ### Phase 0: Prerequisites *(Optional Review)*
