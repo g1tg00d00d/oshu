@@ -18,33 +18,36 @@
 ---
 
 ## 🎓 Curriculum Structure
-- Prerequisites (Optional Review)
-- [[#Foundation Phase (Months 1-12)]]
-	- Core Prerequisites
+- [[#Phase 0 - Prerequisites (Optional Review)]]
+- [[#Phase 1 Foundation (Months 1-12)]]
+	- [[#Month 1 Security Fundamentals & Web Security Basics]]
+		- [[#Week 1-2 Security Mindset & Threat Modeling]]
+		- [[#Week 3-4 Web Application Security Deep Dive]]
+	- [[#Month 2 Network Security & Traffic Analysis]]
+	- [[#Month 3 System Security & Privilege Escalation]]
+	- [[#Month 4 Modern Web Security & JavaScript Analysis]]
 	- Fundamental Concepts
 	- Basic Tool Proficiency
 - 
 
 
 ## Curriculum
-### Prerequisites (Optional Review)
+### Phase 0 - Prerequisites *(Optional Review)*
 *Only complete if you lack programming fundamentals*
 
 #### Core Programming Competency Check
-
-| Type         | Resource                                                | Status    |
-| ------------ | ------------------------------------------------------- | --------- |
+| Type         | Resource                                                                                                         | Status    |
+| ------------ | ---------------------------------------------------------------------------------------------------------------- | --------- |
 | **Book**     | [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - Chapters 1-11                     | ⏳ Pending |
 | **Book**     | [Computer Networks: A Top Down Approach](https://gaia.cs.umass.edu/kurose_ross/online_lectures.htm) Lectures 1-4 | ⏳ Pending |
 | **Hands-On** | [HackTheBox - Introduction to Python3](https://academy.hackthebox.com/module/details/88)                         | ⏳ Pending |
 
+
 ---
 
-### Phase 1: Foundation (Months 1-12)
+### Phase 1: Foundation
 
-#### Month 1: Security Fundamentals & Web Security Basics
-
-##### Week 1-2:Security Mindset & Threat Modeling
+#### Security Mindset & Threat Modeling
 | Type          | Resource                                                                                                                                                                                                                  | Status    |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
 | **Book**      | [Security Engineering 3rd Edition]() - Chapters 1-3, 22                                                                                                                                                                   | ⏳ Pending |
@@ -52,12 +55,11 @@
 | **Paper**     | ["The Protection of Information in Computer Systems" (Saltzer & Schroeder, 1975]()                                                                                                                                        | ⏳ Pending |
 | **Lab**       | Set up isolated security lab (VirtualBox + pfSense)<br><br>- Kali Linux 2024.4 (primary attack)<br>- Ubuntu 20.04 (target web server)<br>- Windows 10 (target desktop)<br>- pfSense (network segmentation and monitoring) |           |
 | **Lab**       | Deploy DVWA and WebGoat in lab environment                                                                                                                                                                                |           |
-| **Lab**       | Basic network reconnaissance using Nmap                                                                                                                                                                                   |           
+| **Lab**       | Basic network reconnaissance using Nmap                                                                                                                                                                                   |           |
 **Assessment**:
 - Document 5 different attack vectors against your lab setup
 - Create threat model diagram for a simple web application
-
-##### Week 3-4: Web Application Security Deep Dive
+#### Web Application Security Deep Dive
 | Type       | Resource                                                                                                                                                                          | Status    |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
 | **Course** | [PortSwigger Web Security Academy]() - All labs in:<br>- SQL Injection<br>- Cross-site scripting (XSS)<br>- Cross-site request forgery (CSRF)<br>- Authentication vulnerabilities | ⏳ Pending |
@@ -65,17 +67,14 @@
 | **Lab**    | Complete all DVWA challenges (low, medium, high security)                                                                                                                         | ⏳ Pending |
 | **Lab**    | PortSwigger Academy labs - minimum 20 labs completed                                                                                                                              |           |
 | **Lab**    | Burp Suite certification preparation                                                                                                                                              |           |
-| **Lab**    | Build a vulnerable web app with 5 different vulnerability types                                                                                                                   |           |
+| **Lab**    | Build a vulnerable web app with 5 different vulnerability types                                                                                                                   |           
 **Assessment**:
 - Burp Suite Certified Practitioner exam (target: 80%+)
 - Document 10 unique XSS payloads you've crafted
 - Write technical blog post: "My First 30 Web Vulnerabilities"
 
 **Monthly Publishing Requirement**: Technical writeup on web security fundamentals
-
-
-#### Month 2: Network Security & Traffic Analysis
-##### Week 1-2: Network Protocols & Analysis
+#### Network Protocols & Analysis
 | Type        | Resource                                                                                                                                    | Status    |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
 | **Book**    | [TCP/IP Illustrated Volume 1](https://www.informit.com/store/tcp-ip-illustrated-volume-1-the-protocols-9780321336316) - Chapters 1-6, 17-20 | ⏳ Pending |
@@ -84,8 +83,7 @@
 | **Lab**     | Build custom packet crafting tools with Scapy                                                                                               | ⏳ Pending |
 | **Lab**     | Network reconnaissance methodology development                                                                                              | ⏳ Pending |
 | **Project** | Python packet analyzer with protocol detection                                                                                              | ⏳ Pending |
-
-##### Week 3-4: Wireless Security & Network Attacks
+#### Wireless Security & Network Attacks
 | Type         | Resource                                                 | Status    |
 | ------------ | -------------------------------------------------------- | --------- |
 | **Study**    | WPA/WPA2/WPA3 protocol specifications                    | ⏳ Pending |
@@ -95,10 +93,7 @@
 | **Lab**      | Evil twin and captive portal attacks                     | ⏳ Pending |
 | **Lab**      | ARP poisoning and traffic interception                   | ⏳ Pending |
 | **Project**  | Automated wireless security assessment tool              | ⏳ Pending |
-
-
-#### Month 3: System Security & Privilege Escalation
-##### Week 1-2: Linux Security Hardening & Exploitation
+#### Linux Security Hardening & Exploitation
 | Type      | Resource                                                                               | Status    |
 | --------- | -------------------------------------------------------------------------------------- | --------- |
 | **Book**  | [The Linux Programming Interface](https://man7.org/tlpi/) - Chapters 1-3, 15-17, 38-39 | ⏳ Pending |
@@ -107,8 +102,7 @@
 | **Lab**   | LinPEAS and LinEnum usage and analysis                                                 | ⏳ Pending |
 | **Lab**   | Manual privilege escalation hunting                                                    | ⏳ Pending |
 | **CTF**   | HTB: Own 5 Linux machines focusing on privesc                                          | ⏳ Pending |
-
-##### Week 3-4: Windows Security & Active Directory
+#### Windows Security & Active Directory
 | Type         | Resource                                                                   | Status    |
 | ------------ | -------------------------------------------------------------------------- | --------- |
 | **Course**   | [Active Directory Security](https://www.pentesteracademy.com/course?id=47) | ⏳ Pending |
@@ -122,10 +116,7 @@
 - Document 10 different Windows privilege escalation techniques
 
 **Monthly Publishing Requirement**: "Active Directory Attack Chains: A Practical Analysis"
-
-
-#### Month 4: Modern Web Security & JavaScript Analysis
-##### Week 1-2: Advanced Web Attacks
+#### Advanced Web Attacks
 | Type      | Resource                                                                               | Status    |
 | --------- | -------------------------------------------------------------------------------------- | --------- |
 | **Book**  | [The Linux Programming Interface](https://man7.org/tlpi/) - Chapters 1-3, 15-17, 38-39 | ⏳ Pending |
@@ -134,8 +125,7 @@
 | **Lab**   | LinPEAS and LinEnum usage and analysis                                                 | ⏳ Pending |
 | **Lab**   | Manual privilege escalation hunting                                                    | ⏳ Pending |
 | **CTF**   | HTB: Own 5 Linux machines focusing on privesc                                          | ⏳ Pending |
-
-##### Week 3-4: JavaScript Security & Client-Side Attacks
+#### JavaScript Security & Client-Side Attacks
 | Type         | Resource                                                                   | Status    |
 | ------------ | -------------------------------------------------------------------------- | --------- |
 | **Course**   | [Active Directory Security](https://www.pentesteracademy.com/course?id=47) | ⏳ Pending |
@@ -144,7 +134,6 @@
 | **Lab**      | Kerberoasting and ASREPRoasting attacks                                    | ⏳ Pending |
 | **Lab**      | BloodHound data collection and analysis                                    | ⏳ Pending |
 | **CTF**      | HTB: Own 3 Windows machines with AD components                             | ⏳ Pending |
-
 **Assessment**:
 - Demonstrate complete domain compromise from unprivileged user
 - Document 10 different Windows privilege escalation techniques
