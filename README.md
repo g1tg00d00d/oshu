@@ -4,10 +4,7 @@
 
 ---
 
-## 📊 Progress Dashboard
-
-## 🎓 Curriculum Structure
-
-### [Phase 0: Prerequisites *(Optional Review)*](./Phase0-Prerequisites/README.md)
-### [Phase 1: Foundation](./Phase1-Foundation/README.md)
+# 🎓 Curriculum Structure
+[Phase 0: Prerequisites *(Optional Review)*](./Phase0-Prerequisites/README.md)
+[Phase 1: Foundation](./Phase1-Foundation/README.md)
 
