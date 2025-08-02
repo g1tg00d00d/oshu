@@ -6,6 +6,6 @@
 
 # 🎓 Curriculum Structure
 
-- [Phase 0: Prerequisites *(Optional Review)*](./Phase0-Prerequisites/README.md) - (🔄 In-Progress)
-- [Phase 1: Foundation](./Phase1-Foundation/README.md) - (⏳ Pending)
+- [Phase 0: Prerequisites *(Optional Review)*](./Phase0-Prerequisites/README.md) - 🔄 In-Progress
+- [Phase 1: Foundation](./Phase1-Foundation/README.md) - ⏳ Pending
 
